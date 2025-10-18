@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Algeria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg" alt="Visit Algeria Logo" class="logo">
+            <h1>Contact Us</h1>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture-heritage.html">Culture</a></li>
+                <li><a href="top-destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="nature">
+        <h2>Get in Touch</h2>
+        <p>We would love to hear from you! Fill out the form below or email us at <a href="mailto:alaaelmardi15@gmail.com">alaaelmardi15@gmail.com</a>.</p>
+
+        <div class="contact-form">
+            <form action="mailto:alaaelmardi15@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Visit Algeria. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

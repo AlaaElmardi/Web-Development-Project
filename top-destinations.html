@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Destinations - Algeria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg" alt="Visit Algeria Logo" class="logo">
+            <h1>Top Destinations</h1>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture-heritage.html">Culture</a></li>
+                <li><a href="top-destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Explore Algeria’s Must-Visit Places</h2>
+            <p>From deserts to mountains and beautiful coastlines, Algeria has destinations for every traveler.</p>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="nature">
+        <h2>Top Destinations</h2>
+        <p>Discover Algeria’s most popular spots that every visitor should explore.</p>
+
+        <div class="nature-gallery">
+            <div class="card">
+                <img src="Sahara Desert 2.jpg" alt="Sahara Desert">
+                <h3>Sahara Desert</h3>
+                <p>Experience the endless golden dunes and unique desert adventures.</p>
+            </div>
+
+            <div class="card">
+                <img src="Kabylie Mountains 2.jpg" alt="Kabylie Mountains">
+                <h3>Kabylie Mountains</h3>
+                <p>Lush mountains with scenic trails and fresh air perfect for hiking.</p>
+            </div>
+
+            <div class="card">
+                <img src="Tipaza Coast 2.jpg" alt="Tipaza Coast">
+                <h3>Tipaza Coast</h3>
+                <p>Pristine beaches along the Mediterranean with ancient ruins nearby.</p>
+            </div>
+
+            <div class="card">
+                <img src="Ghardaia Oasis.jpg" alt="Ghardaia Oasis">
+                <h3>Ghardaia Oasis</h3>
+                <p>A UNESCO site showcasing traditional architecture and desert life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Visit Algeria. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

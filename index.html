@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Algeria - Nature & Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg" alt="Visit Algeria Logo" class="logo">
+            <h1>Visit Algeria</h1>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="culture-heritage.html">Culture</a></li>
+                <li><a href="top-destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Explore Algeria’s Natural Wonders</h2>
+            <p>From the golden dunes of the Sahara to the lush forests of Kabylie, Algeria’s beauty will take your breath away.</p>
+            <a href="top-destinations.html" class="btn">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Nature Section -->
+    <section class="nature">
+        <h2>Nature at Its Finest</h2>
+        <p>Algeria is home to some of Africa’s most stunning natural landscapes. Whether you seek adventure or peace, you’ll find it here.</p>
+
+        <div class="nature-gallery">
+            <div class="card">
+                <img src="Sahara Desert.jpg" alt="Sahara Desert">
+                <h3>Sahara Desert</h3>
+                <p>Vast golden dunes stretching beyond the horizon. A true Algerian desert adventure awaits.</p>
+            </div>
+
+            <div class="card">
+                <img src="Kabylie Mountains.jpg" alt="Kabylie Mountains">
+                <h3>Kabylie Mountains</h3>
+                <p>Green mountains and fresh air — a peaceful retreat for nature lovers.</p>
+            </div>
+
+            <div class="card">
+                <img src="Tipaza Coast.jpg" alt="Tipaza Coast">
+                <h3>Tipaza Coast</h3>
+                <p>Crystal-blue Mediterranean waters meet ancient Roman ruins along this scenic coastline.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Visit Algeria. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
